@@ -5,7 +5,7 @@ body {
   background-position: Center;
   margin-right: 30%;
 }
-.body {
+.text-body {
 	background-color: white;
 }
 .footer p { 
@@ -45,7 +45,11 @@ p {
 	background-attachment: fixed;
 	background-size: 50%;
 }
-
+iframe {
+	background-color: white
+	background attachment: fixed
+}
+	
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
