@@ -44,12 +44,7 @@ p {
 	background-color: white;
 	background-attachment: fixed;
 	background-size: 50%;
-}
-iframe {
-	background-color: white
-	background attachment: fixed
-}
-	
+}	
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
