@@ -1,4 +1,3 @@
-/*This is the CSS page for our final template.*/
 body {
   background-image: url('KAT3.webp');
   background-size: cover;
@@ -6,7 +5,9 @@ body {
   background-position: Center;
   margin-right: 30%;
 }
-
+.text-body {
+	background-color: white;
+}
 .footer p { /* This is how you add styles for only the p text within the footer. */
 	background-color: white;
 	text-align: center;
@@ -48,11 +49,16 @@ p {
 /*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
+	.header {
+		font-size: 40px;
+	}
 .footer p{
 	background-color: skyblue;
 }
 img {
-	float: top;
+	float: none;
+	width: 250px;
+	height: 215px;
 }
 	p{
 		font-size: 50px;
@@ -69,7 +75,8 @@ img {
  	padding-left: 4px;
  }
  iframe {
- 	min-width: 90%;
- 	margin-right: 10px;
+ 	float: none;
+ 	min-width: 80%;
+ 	margin-left: 15px;
  }
 }
